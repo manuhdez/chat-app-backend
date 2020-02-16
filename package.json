@@ -1,0 +1,25 @@
+{
+  "name": "chat-app-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "nodemon": "node_modules/nodemon/bin/nodemon.js",
+    "build": "node_modules/typescript/bin/tsc",
+    "start": "yarn nodemon build/app.js"
+  },
+  "dependencies": {
+    "@types/node": "^13.7.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.7.1",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2"
+  }
+}
