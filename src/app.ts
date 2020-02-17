@@ -1,8 +1,9 @@
 import Express from 'express';
 import bodyParser from 'body-parser';
 
-// app routes
+// app routes and controllers
 import AppRouter from './AppRouter';
+import './controllers';
 
 const app = Express();
 
